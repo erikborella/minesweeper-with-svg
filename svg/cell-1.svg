@@ -1,6 +1,6 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="cell n1">
     <rect width="100" height="100" fill="white"/>
-    <rect class="background" width="100" height="100" rx="10"/>
+    <rect class="background" width="100" height="100" rx="10" fill="#2D5BB6"/>
     <path class="p1" d="M48.4531 25.2031L30.9688 31.625V23.75L55.8125 14.4219H57.1719L48.4531 25.2031Z" fill="white"/>
     <path class="p2" d="M57.1719 83H48.4531V25.2031L57.1719 14.4219V83Z" fill="white"/> 
 </svg>
