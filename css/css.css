@@ -1,0 +1,115 @@
+:root {
+    --background-0-color: #2D5BB6;
+    --background-1-color: #2D5BB6;
+    --background-2-color: #2D5BB6;
+    --background-3-color: #2D5BB6;
+    --background-4-color: #2D5BB6;
+    --background-5-color: #2D5BB6;
+    --background-6-color: #2D5BB6;
+    --background-7-color: #2D5BB6;
+    --background-8-color: #2D5BB6;
+    --background-bomb-color: #2D5BB6;
+    --font-0-color: white;
+    --font-1-color: white;
+    --font-2-color: white;
+    --font-3-color: white;
+    --font-4-color: white;
+    --font-5-color: white;
+    --font-6-color: white;
+    --font-7-color: white;
+    --font-8-color: white;
+    --font-bomb-color: white;
+    --animation_speed: 0.5s
+}
+
+svg.cell * {
+    transition: all var(--animation_speed) ease;
+}
+
+svg.cell .background {
+    opacity: 0;
+}
+
+svg.cell.open .background {
+    opacity: 100;
+}
+
+svg.cell.n0 .background {
+    fill: var(--background-0-color);
+}
+
+svg.cell.n1 .background {
+    fill: var(--background-1-color);
+}
+
+svg.cell.n2 .background {
+    fill: var(--background-2-color);
+}
+
+svg.cell.n3 .background {
+    fill: var(--background-3-color);
+}
+
+svg.cell.n4 .background {
+    fill: var(--background-4-color);
+}
+
+svg.cell.n5 .background {
+    fill: var(--background-5-color);
+}
+
+svg.cell.n6 .background {
+    fill: var(--background-6-color);
+}
+
+svg.cell.n7 .background {
+    fill: var(--background-7-color);
+}
+
+svg.cell.n8 .background {
+    fill: var(--background-8-color);
+}
+
+svg.cell.bomb .background {
+    fill: var(--background-bomb-color);
+}
+
+svg.cell.n0 path {
+    fill: var(--font-0-color);
+}
+
+svg.cell.n1 path {
+    fill: var(--font-1-color);
+}
+
+svg.cell.n2 path {
+    fill: var(--font-2-color);
+}
+
+svg.cell.n3 path {
+    fill: var(--font-3-color);
+}
+
+svg.cell.n4 path {
+    fill: var(--font-4-color);
+}
+
+svg.cell.n5 path {
+    fill: var(--font-5-color);
+}
+
+svg.cell.n6 path {
+    fill: var(--font-6-color);
+}
+
+svg.cell.n7 path {
+    fill: var(--font-7-color);
+}
+
+svg.cell.n8 path {
+    fill: var(--font-8-color);
+}
+
+svg.cell.bomb path {
+    fill: var(--font-bomb-color);
+}

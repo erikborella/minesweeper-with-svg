@@ -1,0 +1,23 @@
+svg.cell.n3 .p1 {
+    transform: translateY(-100%);
+}
+
+svg.cell.n3 .p2 {
+    transform: translateX(100%);
+}
+
+svg.cell.n3 .p3 {
+    transform: translateY(100%);
+}
+
+svg.cell.n3.open .p1 {
+    transform: translateY(0%);
+}
+
+svg.cell.n3.open .p2 {
+    transform: translateX(0%);
+}
+
+svg.cell.n3.open .p3 {
+    transform: translateY(0%);
+}

@@ -1,0 +1,82 @@
+svg.cell.bomb .p1 {
+    transform: translateY(100%);
+}
+
+svg.cell.bomb .p2 {
+    transition-delay: 0.2s;
+    transform: translateY(-100%);
+}
+
+svg.cell.bomb .p3 {
+    transition-delay: 0.3s;
+    transform: translate(-100%, -100%);
+}
+
+svg.cell.bomb .p4 {
+    transition-delay: 0.4s;
+    transform: translate(100%, -100%);
+}
+
+svg.cell.bomb .p5 {
+    transition-delay: 0.5s;
+    transform: translateX(-100%);
+}
+
+svg.cell.bomb .p6 {
+    transition-delay: 0.6s;
+    transform: translateX(100%);
+}
+
+svg.cell.bomb .p7 {
+    transition-delay: 0.7s;
+    transform: translate(-100%, 100%);
+}
+
+svg.cell.bomb .p8 {
+    transition-delay: 0.8s;
+    transform: translate(100%, 100%);
+}
+
+svg.cell.bomb .p9 {
+    transition-delay: 0.9s;
+    transform: translateY(100%);
+}
+
+
+/* animations */
+
+svg.cell.bomb.open .p1 {
+    transform: translateY(0%);
+}
+
+svg.cell.bomb.open .p2 {
+    transform: translateY(0%);
+}
+
+svg.cell.bomb.open .p3 {
+    transform: translate(0%, 0%);
+}
+
+svg.cell.bomb.open .p4 {
+    transform: translate(0%, 0%);
+}
+
+svg.cell.bomb.open .p5 {
+    transform: translateX(0%);
+}
+
+svg.cell.bomb.open .p6 {
+    transform: translateX(0%);
+}
+
+svg.cell.bomb.open .p7 {
+    transform: translate(0%, 0%);
+}
+
+svg.cell.bomb.open .p8 {
+    transform: translate(0%, 0%);
+}
+
+svg.cell.bomb.open .p9 {
+    transform: translateY(0%);
+}

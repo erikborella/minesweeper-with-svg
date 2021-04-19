@@ -1,0 +1,15 @@
+svg.cell.n0 .p1 {
+    transform: translateX(-100%);
+}
+
+svg.cell.n0 .p2 {
+    transform: translateX(100%);
+}
+
+svg.cell.n0.open .p1 {
+    transform: translateX(0%);
+}
+
+svg.cell.n0.open .p2 {
+    transform: translateX(0%);
+}

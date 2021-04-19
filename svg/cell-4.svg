@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="cell n4">
+    <rect width="100" height="100" fill="white"/>
+    <rect class="background" width="100" height="100" rx="10" fill="#2D5BB6"/>
+    <path class="p1" d="M25.4844 67.1562V62.0469L56.0469 14.75H65.2812L56.5625 26.6094L55.5312 28.4844L35.3281 60.0781L25.4844 67.1562Z" fill="white"/>
+    <path class="p2" d="M65.2812 67.1562V83H56.5625V67.1562V60.0781V26.6094L65.2812 14.75V60.0781V67.1562Z" fill="white"/>
+    <path class="p3" d="M65.2812 60.0781H74.75V67.1562H65.2812H56.5625H25.4844L35.3281 60.0781H56.5625H65.2812Z" fill="white"/>
+</svg>
