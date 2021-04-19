@@ -19,7 +19,14 @@
     --font-7-color: white;
     --font-8-color: white;
     --font-bomb-color: white;
-    --animation_speed: 0.5s
+    --animation_speed: 0.5s;
+    --cell-size: 100;
+}
+
+svg.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    cursor: pointer;
 }
 
 svg.cell * {
