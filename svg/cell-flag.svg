@@ -1,0 +1,10 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="cell flag">
+    <rect width="100" height="100" fill="white"/>
+    <rect class="background" width="100" height="100" rx="10" fill="#2D5BB6"/>
+    <path class="p1" d="M33.3333 16.6667H40V83.3333H33.3333V16.6667Z" fill="white"/>
+    <path class="p2" d="M73.3333 40L46.6667 58.6667V21.3333L73.3333 40Z" fill="white"/>
+    <path d="M11 0H89" stroke="black"/>
+    <path d="M100 11V89" stroke="black"/>
+    <path d="M11 100H89" stroke="black"/>
+    <path d="M0 11V89" stroke="black"/>
+</svg>     

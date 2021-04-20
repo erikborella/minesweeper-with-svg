@@ -9,6 +9,7 @@
     --background-7-color: #2D5BB6;
     --background-8-color: #2D5BB6;
     --background-bomb-color: #2D5BB6;
+    --background-flag-color: #2D5BB6;
     --font-0-color: white;
     --font-1-color: white;
     --font-2-color: white;
@@ -19,6 +20,7 @@
     --font-7-color: white;
     --font-8-color: white;
     --font-bomb-color: white;
+    --font-flag-color: white;
     --animation_speed: 0.5s;
     --cell-size: auto;
 }
@@ -89,6 +91,10 @@ svg.cell.bomb .background {
     fill: var(--background-bomb-color);
 }
 
+svg.cell.flag .background {
+    fill: var(--background-flag-color);
+}
+
 svg.cell.n0 path {
     fill: var(--font-0-color);
 }
@@ -127,4 +133,8 @@ svg.cell.n8 path {
 
 svg.cell.bomb path {
     fill: var(--font-bomb-color);
+}
+
+svg.cell.flag path {
+    fill: var(--font-flag-color);
 }
