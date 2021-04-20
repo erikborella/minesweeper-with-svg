@@ -20,7 +20,15 @@
     --font-8-color: white;
     --font-bomb-color: white;
     --animation_speed: 0.5s;
-    --cell-size: 100;
+    --cell-size: auto;
+}
+
+li {
+    display: inline-block;
+}
+
+#board {
+    text-align: center;
 }
 
 svg.cell {
